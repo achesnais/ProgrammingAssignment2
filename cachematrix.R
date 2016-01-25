@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve returns the cached inverse of a special matrix object created with makeCacheMatrix
+## cacheSolve returns the cached inverse of a special matrix object created with makeCacheMatrix.
 ## If there is no inverse cached, it calculates it and caches it before returning the result.
 
 cacheSolve <- function(x, ...) {
